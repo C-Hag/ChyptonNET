@@ -32,5 +32,11 @@ print(quote.lower()) #lowercase
 print(quote.title()) #title case
 print(len(quote)) #counts characters
 
+name = "Chris" #string
+age = 99 #int
+gpa = 3.7 #float - has a decimal
 
+print(int(age))
+print(int(30.1))
+print(int(30.9)) #Will it round? NO.
 
