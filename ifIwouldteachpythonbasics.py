@@ -40,3 +40,10 @@ print(int(age))
 print(int(30.1))
 print(int(30.9)) #Will it round? NO.
 
+print("My name is " + name +" and I am " + str(age) + " years old.")
+
+age += 1
+print(age)
+
+birthday = 1 
+age + birthday
