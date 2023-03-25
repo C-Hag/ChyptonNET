@@ -48,7 +48,16 @@ print(age)
 birthday = 1 
 age + birthday
 
+print('\n')
+#FUNCTIONS
+
+def who_am_i(): #this is a function without parameters
+        name = "Chris" #local variable
+        age = 99
+        print("My name is " + name + " and I am " + str(age) + " years old.")
+
 who_am_i()
+print(age)
 
 def add_one_hundred(num):
         print(num + 100)
