@@ -121,3 +121,19 @@ def car(money):
 print(car(3))
 print(car(1))
 
+def license(age,money):
+        if (age >= 18) and (money >=5):
+                return "We're buying a car"
+        elif (age >=18) and (money < 5):
+                return "Come back with more money."
+        elif (age < 18) and (money >= 5):
+                return "Nice try, kid!"
+        else: 
+                return "You're too young to buy & drive a car."
+
+print(license(18,5))
+print(license(18,4))
+print(license(17,5))
+print(license(17,4))
+ 
+ 
