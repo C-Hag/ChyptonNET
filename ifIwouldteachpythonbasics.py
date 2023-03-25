@@ -47,3 +47,12 @@ print(age)
 
 birthday = 1 
 age + birthday
+
+who_am_i()
+
+def add_one_hundred(num):
+        print(num + 100)
+
+add_one_hundred(100)
+def add(x,y):
+        print(x + y)
