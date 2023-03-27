@@ -150,3 +150,8 @@ print(movies[-1]) #return last item in list.
 print(len(movies)) #count items in the list.  
 movies.append("Back to the Future")
 print(movies) #appends to the end of the list.
+movies.insert(2, "Heat")
+print(movies)
+
+movies.pop(0) #removes the last item
+print(movies)
