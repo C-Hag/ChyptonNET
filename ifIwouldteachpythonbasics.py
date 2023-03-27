@@ -136,4 +136,17 @@ print(license(18,4))
 print(license(17,5))
 print(license(17,4))
  
- 
+nl()
+#LISTS - HAVE brackets []
+movies = ["Monty Pythons's Flying Circus", "And now for something Completly Different", "Monthy Python and the Holy Grail", "Monthy Pyhton's Life of Brian", "Monty Python Live at the Hollywood Bowl", "Monty Python's The Meaning of Life", "Monty Python Live (Mostly)," "Monty Python's Personal Best"]
+print(movies[1]) #Returns the second item in the list
+print(movies[0]) #Return the first item in the list.
+print(movies[1:3]) #Return the first index number given right until the last number, but not include the last number. 
+print(movies[1:])
+print(movies[:1])
+print(movies[-1])
+print(movies[-1]) #return last item in list. 
+
+print(len(movies)) #count items in the list.  
+movies.append("Back to the Future")
+print(movies) #appends to the end of the list.
