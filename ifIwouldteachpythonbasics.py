@@ -103,7 +103,7 @@ greater_than_equal_to = 7 >= 7
 less_than_equal_to = 7 <=7
 
 test_and = (7 > 5) and (5 < 7) #True
-test_and2 = (7 >) and (5 > 7) #False
+test_and2 = (7 > 5) and (5 > 7) #False
 test_or = (7 > 5) or (5 > 7) #True
 test_or2 = (7 > 5) or (5 > 7) #True
 
@@ -198,3 +198,40 @@ while i < 10:
         i += 1
 
 nl()
+
+#ADVANCED STRINGS
+
+my_name = "Christoffer"
+print(my_name[0]) #first letter
+print(my_name[-1]) #last letter
+
+sentence = "This is a sentence."
+print(sentence[:4])
+print(sentence.split()) #delimiter - default is a space
+
+sentence_split = sentence.split()
+sentence_join = ' '.join(sentence_split)
+print(sentence_join)
+
+quote = "He said, 'give me all of your money' "
+print(quote)
+quote = "He said, \"give me all your money\"" 
+print(quote)
+ 
+too_much_space =  "                                  hello                "
+print(too_much_space.strip())
+
+print("A" in "Apple") #True
+print("a" in "APPLE") #False
+
+letter = "A"
+word = "Apple"
+print(letter.lower() in word.lower()) #improved
+
+#Mississippi
+#MiSSissIPPi 
+
+movie = "Monty Pythons's Flying Circus"
+print ("My favorite movie is {}.".format(movie))
+print("My favorite movie is %s." % movie)
+print(f"My favorite movie is {movie}.")
