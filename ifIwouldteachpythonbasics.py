@@ -181,7 +181,7 @@ vegetables = ["cucumber", "spinach", "cabbage", "tomato", "olive", "pepper"]
 for x in vegetables:
         print(x)
 
-
+nl()
 #example for looping through ip-adresses. 
 #192.168.1.1-254
 
