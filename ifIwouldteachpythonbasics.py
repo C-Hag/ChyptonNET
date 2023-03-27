@@ -155,3 +155,46 @@ print(movies)
 
 movies.pop(0) #removes the last item
 print(movies)
+
+rogers_movies = ['Scream', 'The Last Samurai', 'Dances with Wolves']
+tiffanys_movies = ['An Officer and a Gentleman', 'Top Gun', 'Gone with the Wind']
+our_favorite_movies = rogers_movies + tiffanys_movies + movies
+print("our_favorite_movies")
+
+grades = [["bob", 82], ["Alice", 90], ["Jeff", 73]]
+bobs_grade = grades[0][1]
+print(bobs_grade)
+grades[0][1] = 83
+print(grades)
+
+nl()
+#TUPLES - Do not change. () 
+grades = ("a", "b", "c", "d", "f")
+
+print(grades[1])
+
+nl()
+#LOOPING
+
+#For loops - start to finish of an iterate.
+vegetables = ["cucumber", "spinach", "cabbage", "tomato", "olive", "pepper"]
+for x in vegetables:
+        print(x)
+
+
+#example for looping through ip-adresses. 
+#192.168.1.1-254
+
+#ip = 1..254
+#for x in ip: 
+#       ping 192.168.1.x
+        
+
+#While loops - execute as long as True
+i = 1
+
+while i < 10:
+        print(i)
+        i += 1
+
+nl()
