@@ -235,3 +235,16 @@ movie = "Monty Pythons's Flying Circus"
 print ("My favorite movie is {}.".format(movie))
 print("My favorite movie is %s." % movie)
 print(f"My favorite movie is {movie}.")
+ 
+nl()
+#DICTIONARIES - Key/value pairs {}
+
+drinks = {"White Russian": 7, "Old Fashioned": 10, "Lemon Drop": 8} #drink is the key price is the value
+print(drinks)
+
+employees = {"Finance":  ["Rob", "Linnea", "Alice", "Tina"], "IT": ["Gordon", "Louise", "Teddy"], 
+             "HR": ["George", "Constanza", "Jerry S"]}
+print(employees)
+
+employees['Legal'] = ["Mr. Hackman"] #adding a new key:value pair
+print(employees)
