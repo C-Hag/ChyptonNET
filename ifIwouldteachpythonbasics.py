@@ -248,3 +248,8 @@ print(employees)
 
 employees['Legal'] = ["Mr. Hackman"] #adding a new key:value pair
 print(employees)
+
+employees.update({"Sales": ["Andy", "Ollie"]}) #adds new key:value pair
+print(employees)
+
+drinks[]
