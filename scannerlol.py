@@ -21,7 +21,7 @@ print("_" * 50)
 
 try: 
         
-        for port in range(50,85) #common ports in home routers with open DNS.
+        for port in range(50,85): #common ports in home routers with open DNS.
                 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 socket.setdefaulttimeout(1)
                 result = s.connect_ex((target.port))
