@@ -252,4 +252,7 @@ print(employees)
 employees.update({"Sales": ["Andy", "Ollie"]}) #adds new key:value pair
 print(employees)
 
-drinks[]
+drinks['White Russian'] = 8
+print(drinks)
+
+print(drinks.get("White Russian"))
