@@ -5,7 +5,7 @@ import sys #System, functions and parameters.
 from datetime import datetime as dt
 
 print(sys.version)
-print(datetime.now())
+print(dt.now())
 
 #argv python3 portscanner.py <ip>  
 #os
