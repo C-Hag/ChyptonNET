@@ -9,13 +9,19 @@ from datetime import datetime
 ascii_banner = pyfiglet.figlet_format("ScannerLoL")
 print(ascii_banner)
 
-#explain/define the target. 
-if len(sys.argv) == 2:
-    target = socket.gethostbyname(sys.argv[1]) #Translate hostname to IPv4
+#explain/define the target. Old version
+#if len(sys.argv) == 2: 
+#   target = socket.gethostbyname(sys.argv[1]) #Translate hostname to IPv4
 
-else: 
-        print("Not enough arguments. Invalid.")
-        print("Syntax: python3 scannerlol.py <ip>")
+#explain/define the target. New Version with ability to choose
+target    = input("Enter a IP host to scan: ")  
+targetIP  = socket.gethostbyname(target)
+sPort = int(input("Enter a start port to scan: "))
+ePort = int(input("Enter end port to scan: "))
+
+#else: 
+        #print("Not enough arguments. Invalid.")
+        #print("Syntax: python3 scannerlol.py <ip>")
 
 #Add a banner
 print("_" * 50)
