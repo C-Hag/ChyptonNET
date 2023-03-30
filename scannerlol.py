@@ -1,9 +1,13 @@
 #!/bin/python3
 #This will probably be so bad but let's try it out. 
 
+import pyfiglet
 import sys 
 import socket
 from datetime import datetime
+
+ascii_banner = pyfiglet.figlet_format("ScannerLoL")
+print(ascii_banner)
 
 #explain/define the target. 
 if len(sys.argv) == 2:
