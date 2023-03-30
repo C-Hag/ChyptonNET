@@ -52,4 +52,9 @@ except socket.error:
         sys.exit()
 
 #run the following in the terminal to scan your network for open ports: 
-# python3 scannerlol.py (your IP) 
+# python3 scannerlol.py 
+#enter ip to scan
+#enter starting port
+#enter last port to scan. 
+
+# python3 scannerlol.py (your IP) This is old
