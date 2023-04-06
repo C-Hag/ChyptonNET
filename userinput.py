@@ -6,7 +6,16 @@
 
 # Let's try a simple calculator. 
 x = float(input("Give me a number: "))
-y = float(input("Give me yet another number: "))   #this uses strings, change to int or float. 
+o = input("Give me an operator: ") #Give the user an operator to put in...like subtraktion or exponents. 
+y = float(input("Give me yet another number: "))   #this uses strings, change to int or float for x & y. 
+
+if o == "+": 
+        print(x + y)
+elif o == "-": 
+        print(x - y)
+elif o == "/":
+        print(x / y)
+elif o == "*":
 
 print(x + y)
 
