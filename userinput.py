@@ -16,6 +16,9 @@ elif o == "-":
 elif o == "/":
         print(x / y)
 elif o == "*":
-
-print(x + y)
+        print(x * y)
+elif o== "**" or o == "^":
+        print(x ** y)
+else: 
+        print("Not a valid operator!")
 
