@@ -5,8 +5,8 @@
 # print("Hello "+name+"! Let's go for a drive with the "+car+". ")
 
 # Let's try a simple calculator. 
-x = input("Give me a number: ")
-y = input("Give me yet another number: ")
+x = float(input("Give me a number: "))
+y = input("Give me yet another number: ")   #this uses strings, change to int or float. 
 
 print(x + y)
 
