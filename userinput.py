@@ -6,7 +6,7 @@
 
 # Let's try a simple calculator. 
 x = float(input("Give me a number: "))
-y = input("Give me yet another number: ")   #this uses strings, change to int or float. 
+y = float(input("Give me yet another number: "))   #this uses strings, change to int or float. 
 
 print(x + y)
 
