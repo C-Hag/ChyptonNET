@@ -1,7 +1,7 @@
 #!/bin/python3
 
-days = open('days.txt', "w")
+days = open('days.txt' , "w")
  
-days.write("Monday")
+days.write("\nTuesday")
 
 days.close()
