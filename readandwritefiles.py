@@ -2,8 +2,6 @@
 
 months = open('months.txt')
 
-print(months)
-print(months.mode)
-print(months.readable)
+print(months.read)
 
-months.close
+months.close()
