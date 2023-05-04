@@ -1,3 +1,7 @@
 #!/bin/python3
 
-open('months.txt')
+months = open('months.txt')
+
+print(months)
+
+months.close()
