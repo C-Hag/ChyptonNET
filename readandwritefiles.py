@@ -2,6 +2,6 @@
 
 months = open('months.txt')
 
-print(months.read)
+print(months.read())
 
 months.close()
