@@ -1,8 +1,7 @@
 #!/bin/python3
 
-months = open('months.txt')
+days = open('days.txt', "w")
  
-for month in months:
-        print(month)
+days.write("Monday")
 
-months.close()
+days.close()
